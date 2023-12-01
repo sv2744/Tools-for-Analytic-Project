@@ -1,0 +1,3 @@
+This should include any Python package that you’ve had to conda install or pip install.
+Be mindful that the Anaconda installation provides additional 3rd party libraries so you don’t have to install them yourself.
+Your requirements.txt file must include anything that Anaconda already makes available.
