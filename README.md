@@ -7,4 +7,4 @@ Project Group 51
 UNIs:[sv2744, yy3373]
 
 
-change - commit - push
+change - commit - push / pull / local / web
