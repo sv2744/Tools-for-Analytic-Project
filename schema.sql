@@ -1,7 +1,7 @@
 
 CREATE TABLE IF NOT EXISTS nyc_zip_codes (
-    zipcode VARCHAR(10) PRIMARY KEY,
-    boundary GEOMETRY(Point)
+    boundary GEOMETRY(Polygon, 4326) ,
+    zipcode VARCHAR(10)   
 );
 
 
