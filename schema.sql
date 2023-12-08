@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS complaints_311 (
 
 
 CREATE TABLE IF NOT EXISTS trees (
+    tree_id SERIAL PRIMARY KEY,
     zipcode VARCHAR(10),
     created_at DATE,
     geometry GEOMETRY(Point),
