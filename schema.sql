@@ -1,6 +1,6 @@
 
 CREATE TABLE IF NOT EXISTS nyc_zip_codes (
-    zip_code VARCHAR(10) PRIMARY KEY,
+    zipcode VARCHAR(10) PRIMARY KEY,
     borough VARCHAR(255),
     neighborhood VARCHAR(255)
 );
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS trees (
 
 CREATE TABLE IF NOT EXISTS historical_rents (
     id SERIAL PRIMARY KEY,
-    zip_code VARCHAR(10),
+    zipcode VARCHAR(10),
     date DATE,
     average_rent NUMERIC
 );  
