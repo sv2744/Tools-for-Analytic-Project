@@ -1,7 +1,7 @@
 
 CREATE TABLE IF NOT EXISTS nyc_zip_codes (
     zipcode VARCHAR(10) PRIMARY KEY,
-    borough VARCHAR(255),
+    boundary VARCHAR(255),
     neighborhood VARCHAR(255)
 );
 
@@ -15,7 +15,6 @@ CREATE TABLE IF NOT EXISTS complaints_311 (
 
 
 CREATE TABLE IF NOT EXISTS trees (
-    tree_id INTEGER PRIMARY KEY,
     zipcode VARCHAR(10),
     created_at DATE,
     geometry GEOMETRY(Point),
