@@ -9,8 +9,8 @@ CREATE TABLE IF NOT EXISTS nyc_zip_codes (
 CREATE TABLE IF NOT EXISTS complaints_311 (
     complaint_id SERIAL PRIMARY KEY,
     geometry GEOMETRY(Point),
-    incident_zip VARCHAR(10),
-    created_date TIMESTAMP
+    zipcode VARCHAR(10),
+    created_at TIMESTAMP
 );
 
 
