@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 *.csv 
 data/
+=======
+data/
+*.csv
+>>>>>>> 9f15b11241a25b7dd4efda054490978c2e02e991
 .DS_Store
 .ipynb_checkpoints/
