@@ -1,0 +1,4 @@
+In this final project, our objective is to utilize datasets from NYC Open Data and Zillow's historic monthly rent averages to identify an ideal neighborhood within budget. The project comprises four key components: Data Preprocessing, Storing Data, Understanding Data, and Visualizing Data. Utilizing Python, Jupyter Notebooks, and PostgreSQL with PostGIS for spatial data support, we focus on essential factors like 311 complaints, tree census, and rent averages in each location. Specifically, we rank trees and the number of complaints for each location, aiming to explore the relationship of these factors to rent. The visualizations we create in the final section include a geographic map that illustrates the spatial distribution of 311 complaints and trees, providing a visual summary of the neighborhood characteristics and potential correlations with rental prices.
+
+Project Group 48
+UNIs: [sv2744,]
